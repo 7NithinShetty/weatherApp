@@ -64,7 +64,7 @@ function displayAll(){
     image.innerHTML = `<img src="./icons/${weather.iconId}.png">`;
     temperature.innerHTML = `${weather.temperature.value} &deg<span>C</span>`;
     tempDescription.innerHTML = `${weather.description}`;
-    place.innerHTML = `${weather.city}`;
+    place.innerHTML = `in ${weather.city}`;
     backgroundImg.style.backgroundImage = `url(./backgroundImages/${weather.iconId}.jpg)`;
 };
 
